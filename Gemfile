@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 	ruby '2.3.4'
 
-gem 'rails_12factor'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
@@ -33,6 +33,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 #gem 'capistrano-rails', group: :development
 
+gem 'rails_12factor'
 
 
 group :development, :test do
