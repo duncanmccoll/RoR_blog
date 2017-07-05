@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 group :production do
 	gem 'pg'
-
+end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -42,7 +42,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem 'sqlite3'
 # A JavaScript runtime for Rails to use
 gem 'therubyracer'
-end 
+
 group :development, :test do
 
 	gem 'sqlite3'
