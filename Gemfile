@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
-	ruby '2.3.4'
-
+	ruby '2.0.0'
+group :proudction do
+	gem 'pg'
+end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -36,13 +38,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem 'rails_12factor'
 
 # It's always good to have a place to store your data!
-gem 'sqlite3'
+#gem 'sqlite3'
 # A JavaScript runtime for Rails to use
 gem 'therubyracer'
 
 group :development, :test do
+
+	gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+ 	gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
