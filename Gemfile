@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 	ruby '2.0.0'
-group :proudction do
+
+group :production do
 	gem 'pg'
 end
 
