@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 
-gem 'json','~> 2'
+gem 'json','~> 1.8.5'
 
 
 # Use jquery as the JavaScript library
